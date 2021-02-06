@@ -128,6 +128,7 @@ interface StyledOptions {
   shouldForwardProp?(prop: string): boolean
   label?: string
   baseStyle?: SystemStyleObject
+  themeKey?: string
 }
 
 export function styled<T extends As, P = {}>(
